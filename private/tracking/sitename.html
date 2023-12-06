@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        @@include('../../source/templates/head.html', {
+            "prefix": "../../dist",
+            "siteTitle": "Tab Title"
+        })
+    </head>
+    <body>
+        @@include('../../source/templates/nav.html', {
+            "prefix": "../.."
+        })
+        @@include('../../source/templates/threads.html', {
+            "sitename": "Site Name Matching Site Sheet"
+        })
+    </body>
+</html>
